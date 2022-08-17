@@ -1,0 +1,7 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: cornflowerblue;
+    height: 84.6vh;
+}
