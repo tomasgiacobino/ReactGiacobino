@@ -3,10 +3,13 @@
   margin: 0;
 }
 
-li, a{
+li,a{
   text-decoration: none;
   list-style-type: none;
-  color: wheat;
+  color: #c18e30;
+    &:hover{
+      color: black;
+    }
 }
 
 

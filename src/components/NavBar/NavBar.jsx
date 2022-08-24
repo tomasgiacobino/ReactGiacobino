@@ -1,18 +1,14 @@
 import React from 'react'
+import CartWidget from './CartWidget'
+import LogoPng from '../../img/logoMain1.png'
 
 
 const NavBar = () => {
   return (
     <nav>
-        <ul>
-            <li>
-              <div>
-                <a href="#">Farmacia!</a>
-                <a href="#">Click me once</a>
-                <a href="#">Click me twice</a>
-              </div>
-            </li>
-        </ul>
+      <ul>
+        {<img src={LogoPng} alt="" />}
+      </ul>
     </nav>
   )
 }
