@@ -1,9 +1,18 @@
 .header{
     display: flex;
-        justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     height: 20vh;
     width: 100%;
+        .cartYitemList{
+            display: flex;
+            width: 40%;
+            justify-content: space-evenly;
+            align-items: center;
+                .cart{
+                    font-size: 30px;
+                }
+        }
 }
 
 nav{
@@ -19,50 +28,6 @@ nav{
     }
 }
 
-// nav {
-//     ul {
-//         display: flex;
-//         justify-content: space-between;
-//         padding-top: 20px;
-//         font-size: 35px;
-//         background-color: white;
-//         height: 15vh;
-//         color: coral;
-
-//         li {
-
-//             a {
-//                 position: absolute;
-
-//                 &:hover {
-//                     color: green;
-//                 }
-
-//                 &::after {
-//                     content: '';
-//                     position: absolute;
-//                     right: 0px;
-//                     bottom: 0px;
-//                     width: 8.5rem;
-//                     background-color: coral;
-//                     transform: scaleX(0);
-//                     transform-origin: right;
-//                     transition: transform .5s;
-//                     height: 3px;
-//                 }
-
-//                 &:hover::after {
-//                     transform: scaleX(1);
-//                     transform-origin: left;
-//                 }
-
-
-//             }
-//         }
-//     }
-
-// }
-    
 
 
 
