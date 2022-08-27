@@ -8,9 +8,9 @@ const NavBar = () => {
     <nav>
       <ul>
         {<img src={LogoPng} alt="" />}
-        <li>
+        <p>
           NFT World
-        </li>
+        </p>
       </ul>
     </nav>
   )

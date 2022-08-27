@@ -4,7 +4,7 @@ main{
         .hero{
             display: flex;
             justify-content: space-around;
-            height: 30vh;
+            height: 45vh;
             background-color: #c18e30;
             // color: #427AA1;
             color: black;
@@ -16,6 +16,8 @@ main{
                 }
                 .div2{
                     display: flex;
+                    justify-content: space-around;
+                    flex-direction: column;
                     align-items: center;
                 }
         }   
@@ -29,7 +31,7 @@ main{
             align-items: center;
             height: 50vh;
                 .card {
-                    --background: linear-gradient(to left, rgb(125, 130, 155) 0%, #efef3b 100%);
+                    --background: linear-gradient(to left, rgb(162, 98, 20) 0%, #e74825 100%);
                     width: 190px;
                     height: 254px;
                     padding: 4px;

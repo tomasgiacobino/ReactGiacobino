@@ -1,5 +1,4 @@
 import React from 'react'
-import CartWidget from './CartWidget'
 import style from './navBar.module.scss'
 
 const ItemListContainer = () => {

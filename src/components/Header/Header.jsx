@@ -1,6 +1,6 @@
 import React from 'react'
 import CartWidget from '../NavBar/CartWidget'
-import ItemListContainer from '../NavBar/ItemListContainer'
+import NavBarContainer from '../NavBar/NavBarContainer'
 import NavBar from '../NavBar/NavBar'
 import estilos from './header.module.scss'
 
@@ -11,7 +11,7 @@ const Header = () => {
           <NavBar/>
           <div className={estilos.cartYitemList}>
           <CartWidget />
-          <ItemListContainer />    
+          <NavBarContainer />    
           </div>
       </header>
   )
