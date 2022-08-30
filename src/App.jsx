@@ -9,7 +9,7 @@ const App = () =>{
         <>
             <Header/>
             <Main/>
-            <Footer fecha={25} alumno={{nombre:'Tomas', apellido: 'Giacobino', curso:'React'}} empresa="CoderHouse"/>
+            <Footer/>
         </>
     )
 }

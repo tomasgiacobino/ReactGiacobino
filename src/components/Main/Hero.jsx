@@ -4,10 +4,10 @@ import style from './main.module.scss'
 
 const Hero = (propiedades) => {
 
-    const onAdd = () =>{
+    // const onAdd = () =>{
 
-        alert("Se agrego a carrito.")
-    }
+    //     alert("Se agrego a carrito.")
+    // }
 
 
   return (
@@ -19,13 +19,12 @@ const Hero = (propiedades) => {
             <h3>
                 NFT
             </h3>
-            <h3>{propiedades.test} {propiedades.fecha}</h3>
         </div>
         <div className={style.div2}>
             <h2>
-            This is how art evolved. 
+            Evolved art. 
             </h2>
-            <ItemCount stock={10} initial={1} onAdd={onAdd}/>
+            {/* <ItemCount stock={10} initial={1} onAdd={onAdd}/> */}
         </div>
     </div>
   )}

@@ -1,29 +1,34 @@
 import React from 'react'
 import style from '../Main/main.module.scss'
 
-const Productos = () => {
+const Item = (props) => {
+
+
+  const {item} = props
   return (
 
-    <section className={style.productos}>
+    
+    <section>
 
-      <div className={style.cardMayor}>
+
 
         <div className={style.card}>
           <div className={style.cardInfo}>
-            <p className={style.title}>Premium</p>
+            <p className={style.price}>{item.price}</p>
+            <p className={style.title}>{item.title}</p>
+            <p className={style.description}>{item.description}</p>
           </div>
         </div>
         {/* { <button class="cta">
           <span class="hover-underline-animation"> Shop now </span>
-          <svg id="arrow-horizontal" xmlns="http://www.w3.org/2000/svg" width="30" height="10" viewBox="0 0 46 16">
-            <path id="Path_10" data-name="Path 10" d="M8,0,6.545,1.455l5.506,5.506H-30V9.039H12.052L6.545,14.545,8,16l8-8Z" transform="translate(30)"></path>
+          <svg id="arrow-horizontal" xmlns="httzp://www.w3.org/2000/svg" width="30" height="10" viewBox="0 0 46 16">
+          <path id="Path_10" data-name="Path 10" d="M8,0,6.545,1.455l5.506,5.506H-30V9.039H12.052L6.545,14.545,8,16l8-8Z" transform="translate(30)"></path>
           </svg>
         </button>} */}
 
-      </div>
-    </section>
 
+    </section>
   )
 }
 
-export default Productos
+export default Item

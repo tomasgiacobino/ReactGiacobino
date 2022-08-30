@@ -1,17 +1,15 @@
 import React from 'react'
 import NavBarContainer from '../NavBar/NavBarContainer'
 import style from './footer.module.scss'
-// import Logo2Png from '../../img/logo2.png'
+import LogoSmall from '../../img/logoSmall2.png'
 
-const Footer = (props) => {
+const Footer = () => {
 
-  const {fecha, alumno, empresa} = props
 
   return (
     <footer className={style.footer}>
-        {/* <img src={Logo2Png} alt="" /> */}
+        { <img src={LogoSmall} alt="" />}
         <NavBarContainer />
-        <h4>{fecha} {alumno.nombre} {alumno.curso} {alumno.apellido} {empresa}</h4>
     </footer>
   )
 }

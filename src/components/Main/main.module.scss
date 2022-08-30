@@ -1,87 +1,107 @@
-main{
+main {
     display: flex;
     flex-direction: column;
-        .hero{
+
+    .hero {
+        display: flex;
+        justify-content: space-around;
+        height: 45vh;
+        background-color: #c18e30;
+        // color: #427AA1;
+        color: black;
+
+        .div1 {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-around;
+        }
+
+        .div2 {
             display: flex;
             justify-content: space-around;
-            height: 45vh;
-            background-color: #c18e30;
-            // color: #427AA1;
-            color: black;
-                .div1{
-                    display: flex;
-                    flex-direction: column;
-                    align-items: center;
-                    justify-content: space-around;
-                }
-                .div2{
-                    display: flex;
-                    justify-content: space-around;
-                    flex-direction: column;
-                    align-items: center;
-                }
-        }   
+            flex-direction: column;
+            align-items: center;
+        }
+    }
 
-        .productos{
-            text-align: center;
+    .padreProd {
+        background-color: #c18e30;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+
+        .productos2 {
             padding: 40px;
-            background-color: #c18e30;
             display: flex;
+            height: 70vh;
             justify-content: space-between;
             align-items: center;
-            height: 50vh;
-                .card {
-                    --background: linear-gradient(to left, rgb(162, 98, 20) 0%, #e74825 100%);
-                    width: 190px;
-                    height: 254px;
-                    padding: 4px;
-                    border-radius: 1rem;
-                    overflow: visible;
+
+            .card {
+                --background: linear-gradient(to left, rgb(162, 98, 20) 0%, #e74825 100%);
+                width: 190px;
+                height: 270px;
+                padding: 4px;
+                border-radius: 1rem;
+                overflow: visible;
+                background: #f7ba2b;
+                background: var(--background);
+                position: relative;
+                z-index: 1;
+
+                &:hover .cardInfo {
+                    color: #c18e30;
+                    transition: color 2s;
+                }
+
+                &::after {
+                    position: absolute;
+                    content: "";
+                    top: 30px;
+                    left: 0;
+                    right: 0;
+                    z-index: -1;
+                    height: 100%;
+                    width: 100%;
+                    transform: scale(0.8);
+                    filter: blur(25px);
                     background: #f7ba2b;
                     background: var(--background);
-                    position: relative;
-                    z-index: 1;
-                        &:hover .cardInfo{
-                            color: #c18e30;
-                            transition: color 2s;
-                        }
-                        &::after{
-                            position: absolute;
-                            content: "";
-                            top: 30px;
-                            left: 0;
-                            right: 0;
-                            z-index: -1;
-                            height: 100%;
-                            width: 100%;
-                            transform: scale(0.8);
-                            filter: blur(25px);
-                            background: #f7ba2b;
-                            background: var(--background);
-                            transition: opacity .5s;
-                            }
-                            &:hover::after {
-                                opacity: 0;
-                            }
-                        .cardInfo{
-                            --color: #181818;
-                            background: var(--color);
-                            color: var(--color);
-                            display: flex;
-                            justify-content: center;
-                            align-items: center;
-                            width: 100%;
-                            height: 100%;
-                            overflow: visible;
-                            border-radius: .7rem;
-                                .title {
-                                    font-weight: bold;
-                                    letter-spacing: .5em;
-                                }
-                        }
+                    transition: opacity .5s;
+                }
+
+                &:hover::after {
+                    opacity: 0;
+                }
+
+                .cardInfo {
+                    --color: #181818;
+                    background: var(--color);
+                    color: var(--color);
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-evenly;
+                    width: 100%;
+                    height: 100%;
+                    overflow: visible;
+                    border-radius: .7rem;
+
+                    .title {
+                        font-size: 30px;
+                        font-weight: bold;
+                        letter-spacing: .1em;
                     }
+                    .price{
+                        font-size: 18px;
+                    }
+                    .description{
+                        font-size: 18px;
+                    }
+                }
             }
-            
-}    
 
+        }
 
+    }
+}

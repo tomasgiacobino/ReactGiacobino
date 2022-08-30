@@ -1,7 +1,7 @@
 import React from 'react'
 import style from './navBar.module.scss'
 
-const ItemListContainer = () => {
+const NavListContainer = () => {
   return (
     <div className={style.info}>
         <a href="#">About Us</a>
@@ -11,4 +11,4 @@ const ItemListContainer = () => {
   )
 }
 
-export default ItemListContainer
+export default NavListContainer
