@@ -1,12 +1,11 @@
 import React, {useState, useEffect} from 'react'
 import { ArrayItems } from '../../mock/Array'
 import ItemList from './ItemList';
-import style from '../Main/main.module.scss'
 
 
 const ItemListContainer = () => {
 
-    const [item, setItem] = useState([]); // le ponemos corchetes por que nos va a llegar un Array
+    const [products, setProducts] = useState([]); // le ponemos corchetes por que nos va a llegar un Array
 
 
     useEffect (() => {
@@ -23,7 +22,7 @@ const ItemListContainer = () => {
         getProducts
         .then((response) => { // en los parentesis cae la resolucion de la promesa
 
-            setItem(response) // guardamos en mi estado item el response que me llega, setItem actualiza mi estado cuando me llega el response 
+            setProducts(response) // guardamos en mi estado products el response que me llega, setItem actualiza mi estado cuando me llega el response 
         })
         .catch((err) => {
 
@@ -39,7 +38,7 @@ const ItemListContainer = () => {
 
   return (
     <div>
-        <ItemList estado={item} />
+        <ItemList estado={products} />
     </div>    
   )
 }
