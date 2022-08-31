@@ -112,14 +112,22 @@ main {
         background-color: black;
         height: 50vh;
             .itemDCont{
-                display: flex;
-                flex-direction: column;
-                justify-content: space-evenly;
                 border: 3px solid #c18e30;
                 border-radius: 10px;
                 height: 270px;
                 padding: 20px;
-                background-color: wheat;
+                background-image: url(https://res.cloudinary.com/dkrwpgaco/image/upload/v1661970631/hesam-link-d_7IWkDz-4c-unsplash_zkwive.jpg);
+                background-size: cover;
+                filter:opacity(60%);
+                    .itemDInside{
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: space-between;
+                        height: 210px;
+                        color: white;
+                        font-style: italic;                   
+                    }
+                
             }
     }
 }

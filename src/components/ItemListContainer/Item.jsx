@@ -14,9 +14,7 @@ const Item = (props) => {
 
         <div className={style.card}>
           <div className={style.cardInfo}>
-            <p className={style.price}>{item.price}</p>
             <p className={style.title}>{item.title}</p>
-            <p className={style.description}>{item.description}</p>
           </div>
         </div>
         {/* { <button class="cta">

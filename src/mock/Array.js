@@ -7,6 +7,7 @@ export const ArrayItems = [
     },
     {
         id:2,
+        img: "https://res.cloudinary.com/dkrwpgaco/image/upload/v1661970631/hesam-link-d_7IWkDz-4c-unsplash_zkwive.jpg",
         title: 'Gold',
         price: '$1600 - $2999',
         description: 'Only 30 NFTS',
