@@ -20,9 +20,6 @@ const ItemList = (props) => {
                   
                 })
                 
-                
-                
-                
               }
             </div>      
     </div>

@@ -1,12 +1,14 @@
 import React from 'react'
 import style from './navBar.module.scss'
+import {Link} from 'react-router-dom'
 
 const NavListContainer = () => {
   return (
     <div className={style.info}>
-        <a href="#">About Us</a>
-        <a href="#">Contactanos</a>
-        <a href="#">NFT? Why would i buy this?</a>
+        <Link to="/category/premium">Premium</Link>
+        <Link to="/category/gold">Gold</Link>
+        <Link to="/category/silver">Silver</Link>
+        <Link to="/category/bronce">Bronce</Link>
     </div>
   )
 }

@@ -1,18 +1,31 @@
 import React from 'react'
-import style from './main.module.scss'
 import Hero from './Hero'
 import ItemListContainer from '../ItemListContainer/ItemListContainer'
 import ItemDetailContainer from '../ItemListContainer/ItemDetailContainer'
 import {Route,Routes} from 'react-router-dom'
 
 
-const Main = () => {
-  return (  
 
+const Main = () => {
+  
+  const funcionDePadreAHijo = (param) =>{ // la funcion va del padre Main al hijo Hero y la llamamos con un callBack ya que recibe un parametro.
+    console.log(param)
+}
+  
+  return (  
     <main>
-        <Hero/>
-        <ItemListContainer/>
-        <ItemDetailContainer/>
+      <Routes>
+        <Route 
+            path="/"
+            element={<Hero funcionPaH={funcionDePadreAHijo}/>}
+        />
+        <Route path="/category/:categoryCategory" element={<ItemListContainer />} />
+        <Route 
+            path="/detail"
+            element={<ItemDetailContainer/>}
+        />
+      </Routes>
+    
     </main>
   )
 }

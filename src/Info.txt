@@ -1,0 +1,8 @@
+                UseEffect
+-El efecto primario de REACT, es renderizar el DOM. 
+-Con UseEffect, vamos a poder ejecutar codigo una vez que se haya renderizado el DOM.
+
+
+                BrowserRouter
+Es un componente que nos da la libreria react-router-dom, que se encarga de englobar a toda nuestra aplicacion,
+nos da funcionalidad para navegar, por eso lo utilizamos en el componente APP.
