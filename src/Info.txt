@@ -6,3 +6,10 @@
                 BrowserRouter
 Es un componente que nos da la libreria react-router-dom, que se encarga de englobar a toda nuestra aplicacion,
 nos da funcionalidad para navegar, por eso lo utilizamos en el componente APP.
+
+
+                UseParams
+-Es un Hook que nos da react-router-dom para poder manejar rutas dinamicas,
+a traves del : -> category/:categoryName.
+- Para que el :categoryName pueda tomar distintos valores, en los ( Link to ) le asignamos esos valores.
+- Por ejemplo: Link to = "/category/remeras" , "/category/pantalones" 

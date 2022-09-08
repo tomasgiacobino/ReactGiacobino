@@ -19,11 +19,7 @@ const Main = () => {
             path="/"
             element={<Hero funcionPaH={funcionDePadreAHijo}/>}
         />
-        <Route path="/category/:categoryCategory" element={<ItemListContainer />} />
-        <Route 
-            path="/detail"
-            element={<ItemDetailContainer/>}
-        />
+        <Route path="/category/:categoryName" element={<ItemListContainer/>} />
       </Routes>
     
     </main>

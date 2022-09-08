@@ -43,7 +43,7 @@ export const ArrayItems = [
     {
         id:7,
         img:"https://res.cloudinary.com/dkrwpgaco/image/upload/v1661970631/hesam-link-d_7IWkDz-4c-unsplash_zkwive.jpg" ,
-        category: 'Gold',
+        category: 'gold',
         title: 'HOLLLA',
         price: '$500 - $999',
         description: 'Only 30 NFTS',
@@ -51,7 +51,7 @@ export const ArrayItems = [
     {
         id:8,
         img:"https://res.cloudinary.com/dkrwpgaco/image/upload/v1661970631/hesam-link-d_7IWkDz-4c-unsplash_zkwive.jpg" ,
-        category: 'Gold',
+        category: 'gold',
         title: 'HOLLLA',
         price: '$500 - $999',
         description: 'Only 30 NFTS',
@@ -59,7 +59,7 @@ export const ArrayItems = [
     {
         id:9,
         img:"https://res.cloudinary.com/dkrwpgaco/image/upload/v1661970631/hesam-link-d_7IWkDz-4c-unsplash_zkwive.jpg" ,
-        category: 'Silver',
+        category: 'silver',
         title: 'HOLLLA',
         price: '$500 - $999',
         description: 'Only 30 NFTS',
@@ -67,7 +67,7 @@ export const ArrayItems = [
     {
         id:10,
         img:"https://res.cloudinary.com/dkrwpgaco/image/upload/v1661970631/hesam-link-d_7IWkDz-4c-unsplash_zkwive.jpg" ,
-        category: 'Silver',
+        category: 'silver',
         title: 'HOLLLA',
         price: '$500 - $999',
         description: 'Only 30 NFTS',
