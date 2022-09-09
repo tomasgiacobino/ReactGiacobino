@@ -1,15 +1,14 @@
 import React from 'react'
 import Item from './Item'
-import style from '../Main/main.module.scss'
+import style from './Item.module.scss'
 
 const ItemList = (props) => {
 
   const {estado} = props;
 
   return (
-    <div className={style.padreProd}>
-            <h2> Ours featured NFTS </h2>
-            <div className={style.productos2}>
+    <div>
+            <div className={style.padreCards}>
             {
               
               estado.map((produ) => {
@@ -21,7 +20,7 @@ const ItemList = (props) => {
                 })
                 
               }
-            </div>      
+            </div>   
     </div>
   )
 }

@@ -1,0 +1,35 @@
+.padreCards{
+    display: flex;
+    justify-content: space-around;
+        .cards{
+            display: flex;
+            text-align: center;
+                img{
+                    height: 100px;
+                    width: 100px;
+                }
+        }
+}
+
+.detailContainer{
+
+    background-color: red;
+    padding: 200px;
+
+    h2{
+
+        font-size: 20px;
+        color: blueviolet;
+
+    }
+
+    h3{
+
+        font-size: 20px;
+        color: blueviolet;
+
+    }
+
+
+}
+

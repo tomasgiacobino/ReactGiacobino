@@ -105,6 +105,9 @@ main {
                         .description {
                             font-size: 18px;
                         }
+                        .img{
+                            display:none;
+                        }
                     }
                 }
 
@@ -126,7 +129,6 @@ main {
             border-radius: 10px;
             height: 270px;
             padding: 20px;
-            background-image: url(https://res.cloudinary.com/dkrwpgaco/image/upload/v1661970631/hesam-link-d_7IWkDz-4c-unsplash_zkwive.jpg);
             background-size: cover;
             filter: opacity(60%);
 

@@ -1,8 +1,8 @@
 import React from 'react'
 import Hero from './Hero'
 import ItemListContainer from '../ItemListContainer/ItemListContainer'
-import ItemDetailContainer from '../ItemListContainer/ItemDetailContainer'
 import {Route,Routes} from 'react-router-dom'
+import ItemDetailContainer from '../ItemListContainer/ItemDetailContainer'
 
 
 
@@ -20,6 +20,7 @@ const Main = () => {
             element={<Hero funcionPaH={funcionDePadreAHijo}/>}
         />
         <Route path="/category/:categoryName" element={<ItemListContainer/>} />
+        <Route path="/detail/:idDetail" element={<ItemDetailContainer/>}/>
       </Routes>
     
     </main>

@@ -1,5 +1,5 @@
 import React from 'react'
-import ItemListContainer from '../ItemListContainer/ItemListContainer'
+import Cards from '../Cards/Cards'
 //import ItemCount from '../counter/ItemCount'
 import style from './main.module.scss'
 
@@ -37,7 +37,7 @@ const Hero = ({ funcionPaH }) => {
                     {/* { <ItemCount stock={10} initial={1} onAdd={onAdd}/> } */}
                 </div>
             </div>
-                <ItemListContainer />
+                <Cards />
         </div>
     )
 }
