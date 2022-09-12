@@ -1,14 +1,8 @@
 import React from 'react'
 import Cards from '../Cards/Cards'
-//import ItemCount from '../counter/ItemCount'
 import style from './main.module.scss'
 
 const Hero = ({ funcionPaH }) => {
-
-    // const onAdd = () =>{
-
-    //     alert("Se agrego a carrito.")
-    // }
 
     const funcionCallBack = (param) => { // a la funcion la llamamos con un CallBack ya que recibe un parametro
         console.log(param)
@@ -34,7 +28,7 @@ const Hero = ({ funcionPaH }) => {
                     <h2 onClick={() => funcionPaH('Probando funcion de Padre a Hijo')}>
                         Evolved art.
                     </h2>
-                    {/* { <ItemCount stock={10} initial={1} onAdd={onAdd}/> } */}
+                   
                 </div>
             </div>
                 <Cards />

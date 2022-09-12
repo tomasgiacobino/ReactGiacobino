@@ -4,6 +4,7 @@ import NavBarContainer from '../NavBar/NavBarContainer'
 import NavBar from '../NavBar/NavBar'
 import estilos from './header.module.scss'
 import Button from '../Button/Button'
+import { Link } from 'react-router-dom'
 
 
 const Header = () => {
@@ -11,9 +12,11 @@ const Header = () => {
       <header className={estilos.header}>
           <NavBar/>
           <div className={estilos.cartYitemList}>
-          <CartWidget />
+            <Link to="/cart">
+            <CartWidget />
+            </Link>
           <NavBarContainer />    
-          <Button value="Sing in" variant="primary"/>
+          <Button value="Sign in" variant="primary"/>
           </div>
       </header>
   )

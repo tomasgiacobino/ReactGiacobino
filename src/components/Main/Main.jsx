@@ -1,8 +1,10 @@
 import React from 'react'
 import Hero from './Hero'
 import ItemListContainer from '../ItemListContainer/ItemListContainer'
+import ItemDetailContainer from '../Detail/ItemDetailContainer'
+import Cart from '../NavBar/Cart'
 import {Route,Routes} from 'react-router-dom'
-import ItemDetailContainer from '../ItemListContainer/ItemDetailContainer'
+
 
 
 
@@ -21,6 +23,7 @@ const Main = () => {
         />
         <Route path="/category/:categoryName" element={<ItemListContainer/>} />
         <Route path="/detail/:idDetail" element={<ItemDetailContainer/>}/>
+        <Route path="/cart" element={<Cart />}/>
       </Routes>
     
     </main>

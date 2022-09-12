@@ -3,33 +3,17 @@
     justify-content: space-around;
         .cards{
             display: flex;
+            flex-direction: column;
+            gap: 30px;
             text-align: center;
+                .card{
+                    display: flex;
+                    flex-direction: column;
+                }
                 img{
                     height: 100px;
                     width: 100px;
                 }
         }
-}
-
-.detailContainer{
-
-    background-color: red;
-    padding: 200px;
-
-    h2{
-
-        font-size: 20px;
-        color: blueviolet;
-
-    }
-
-    h3{
-
-        font-size: 20px;
-        color: blueviolet;
-
-    }
-
-
 }
 

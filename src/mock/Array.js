@@ -7,6 +7,7 @@ export const ArrayItems = [
         title: 'Anonimous',
         price: '4500',
         description: 'Wow',
+        stock: 4
     },
     {
         id:2,
@@ -15,6 +16,7 @@ export const ArrayItems = [
         title: 'asdasd',
         price: '$3500',
         description: 'Wow',
+        stock: 4
     },
     {
         id:3,
@@ -23,6 +25,7 @@ export const ArrayItems = [
         title: 'HOLLLA',
         price: '$500',
         description: 'Only 30 NFTS',
+        stock: 4
     },
     {
         id:4,
@@ -31,6 +34,7 @@ export const ArrayItems = [
         title: 'HOLLLA',
         price: '$999',
         description: 'Only 30 NFTS',
+        stock: 4
     },
     {
         id:5,
@@ -39,6 +43,7 @@ export const ArrayItems = [
         title: 'HOLLLA',
         price: '$500 - $999',
         description: 'Only 30 NFTS',
+        stock: 4
     },
     {
         id:6,
@@ -47,6 +52,7 @@ export const ArrayItems = [
         title: 'HOLLLA',
         price: '$500 - $999',
         description: 'Only 30 NFTS',
+        stock: 4
     },
     {
         id:7,
@@ -55,6 +61,7 @@ export const ArrayItems = [
         title: 'HOLLLA',
         price: '$500 - $999',
         description: 'Only 30 NFTS',
+        stock: 4
     },
     {
         id:8,
@@ -63,5 +70,6 @@ export const ArrayItems = [
         title: 'HOLLLA',
         price: '$500 - $999',
         description: 'Only 30 NFTS',
+        stock: 4
     }
 ]

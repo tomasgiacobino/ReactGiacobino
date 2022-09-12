@@ -12,7 +12,7 @@ const ItemCount = (props) => {
 
         if (count < stock) {
 
-            count = setCount(count + initial); // setear el valor de count cuando realizo la suma. Actualizo el estado de count.
+            setCount(count + initial); // setear el valor de count cuando realizo la suma. Actualizo el estado de count.
             
         } else {
             console.log("No hay mas stock") 
@@ -24,13 +24,20 @@ const ItemCount = (props) => {
 
         if(count > initial){
 
-            count = setCount(count - initial) // Hago lo mismo que en la funcion Sumar.
+            setCount(count - initial) // Hago lo mismo que en la funcion Sumar.
 
         }else{
             console.log("!")
         }
 
     }
+
+    const mandarAPadre = () => {
+        
+        onAdd(count)
+    }
+
+    
 
     
   return (
@@ -43,8 +50,8 @@ const ItemCount = (props) => {
 
         <button onClick={restar}> - </button> {/* con onClick, al hacer click en el boton -, llamo a la funcion restar */}
 
-        <button onClick={onAdd}> {/* con onClick, llamo a la funcion onAdd declarada en el Hero*/}
-            Agregar al carrito
+        <button onClick={mandarAPadre}> {/* con onClick, llamo a la funcion onAdd declarada en el Hero*/}
+            Buy
         </button>
 
     </div>

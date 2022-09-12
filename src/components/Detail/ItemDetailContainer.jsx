@@ -2,7 +2,7 @@ import React, {useState, useEffect} from 'react'
 import { useParams } from 'react-router-dom';
 import { ArrayItems } from '../../mock/Array';
 import ItemDetail from './ItemDetail';
-import style from './Item.module.scss'
+import style from './Detail.module.scss'
 
 
 const ItemDetailContainer = () => {
