@@ -8,7 +8,7 @@ import style from './Detail.module.scss'
 const ItemDetailContainer = () => {
 
     const {idDetail} = useParams(); // usamos UseParams para leer la URL dinamica asignada en el path del MAIN.
-    const [products, setProducts] = useState({}); // le ponemos corchetes por que nos va a llegar un Array
+    const [products, setProducts] = useState({}); // le ponemos corchetes por que nos va a llegar un Objeto
     const [isLoading, setLoading] = useState(true); // para el loading, lo inicializamos con un valor booleano
     const idxItemNumerico = Number(idDetail) // pasarlo a number porque si no lo leera como String 
 

@@ -1,6 +1,7 @@
 import React from 'react'
-import {useState} from 'react'
+import {useState, useContext} from 'react'
 import {Link} from 'react-router-dom'
+import { CartContext } from '../Context/CartContext'
 import ItemCount from '../counter/ItemCount'
 import style from './Detail.module.scss'
 
@@ -9,13 +10,16 @@ const ItemDetail = (props) => {
 
   const { product } = props
 
+  const {addItem} = useContext(CartContext);
+
   const [countValue, setCountValue] = useState(0);
 
   const onAdd = (countFromItemCount) =>{
 
-    setCountValue(countFromItemCount);
+    setCountValue(countFromItemCount); // me llega la cantidad del contador
+    addItem(product, countFromItemCount) // para setear y le pasamos como parametro procuct(que es donde estan todos mis productos), y la cantidad.
 
-    alert("Se agrego a carrito.")
+    console.log('Se agrego a carrito!');
 
   }
 
@@ -44,9 +48,13 @@ const ItemDetail = (props) => {
           justifyContent: 'space-around',
           color: 'white',
         }}>
-        <h2>{product.category}</h2>
-        <h3>El precio es:{product.price}</h3>
-        <h4>{product.description}</h4>
+
+        
+        <h2 style={{fontSize:"40px"}}>{product.title}</h2>
+        <h3>${product.price}</h3>
+        <h3>{product.description}</h3>
+        <h2>stock: {product.stock}</h2>
+
       </div>
       {
         countValue === 0 ? <ItemCount stock={product.stock} initial={1} onAdd={onAdd}/> 

@@ -7,14 +7,9 @@ const Item = (props) => {
 
   const { item } = props
 
-  const backImage = {
-    backgroundImage: item.img,
-  }
-
-
   return (
     <section className={style.cards}>
-      <div style=
+      <div className={style.cardInfo} style=
         {{
           backgroundImage: `url(${item.img})`,
           backgroundPosition: 'center',
@@ -29,14 +24,11 @@ const Item = (props) => {
           flexDirection: 'column',
           justifyContent: 'space-around',
           color:'white',
-        }}
-        className={style.cardInfo}>
+        }}>
+        
 
+          <p className={style.title}>{item.title}</p>
 
-          <p>{item.description}</p>
-          <p className={style.title}>{item.category}</p>
-          <p>{item.price}</p>
-        {/* <img className={style.img} src={item.img} alt="" /> */}
       </div>
       <Link to={`/detail/${item.id}`}>
         <button>Detalles</button>

@@ -13,8 +13,8 @@ export const ArrayItems = [
         id:2,
         img:"https://res.cloudinary.com/dkrwpgaco/image/upload/v1662666749/NftPremium1_m1u6wf.jpg" ,
         category: 'premium',
-        title: 'asdasd',
-        price: '$3500',
+        title: 'Calavera',
+        price: '3500',
         description: 'Wow',
         stock: 4
     },
@@ -22,8 +22,8 @@ export const ArrayItems = [
         id:3,
         img:"https://res.cloudinary.com/dkrwpgaco/image/upload/v1661970631/hesam-link-d_7IWkDz-4c-unsplash_zkwive.jpg" ,
         category: 'gold',
-        title: 'HOLLLA',
-        price: '$500',
+        title: 'Smoking',
+        price: '2000',
         description: 'Only 30 NFTS',
         stock: 4
     },
@@ -31,8 +31,8 @@ export const ArrayItems = [
         id:4,
         img:"https://res.cloudinary.com/dkrwpgaco/image/upload/v1662666936/NftGold2_brwsfg.jpg" ,
         category: 'gold',
-        title: 'HOLLLA',
-        price: '$999',
+        title: 'Astronauta',
+        price: '1400',
         description: 'Only 30 NFTS',
         stock: 4
     },
@@ -41,7 +41,7 @@ export const ArrayItems = [
         img:"https://res.cloudinary.com/dkrwpgaco/image/upload/v1662666739/NftSilver_bqgx4m.jpg" ,
         category: 'silver',
         title: 'HOLLLA',
-        price: '$500 - $999',
+        price: '700',
         description: 'Only 30 NFTS',
         stock: 4
     },
@@ -50,7 +50,7 @@ export const ArrayItems = [
         img:"https://res.cloudinary.com/dkrwpgaco/image/upload/v1662666735/NfttSilver1_yg0ppo.jpg" ,
         category: 'silver',
         title: 'HOLLLA',
-        price: '$500 - $999',
+        price: '600',
         description: 'Only 30 NFTS',
         stock: 4
     },
@@ -59,7 +59,7 @@ export const ArrayItems = [
         img:"https://res.cloudinary.com/dkrwpgaco/image/upload/v1662666762/NftBronce1_n6p6nv.jpg" ,
         category: 'bronce',
         title: 'HOLLLA',
-        price: '$500 - $999',
+        price: '350',
         description: 'Only 30 NFTS',
         stock: 4
     },
@@ -68,7 +68,7 @@ export const ArrayItems = [
         img:"https://res.cloudinary.com/dkrwpgaco/image/upload/v1662666759/NftBronce2_c024gk.jpg" ,
         category: 'bronce',
         title: 'HOLLLA',
-        price: '$500 - $999',
+        price: '250',
         description: 'Only 30 NFTS',
         stock: 4
     }

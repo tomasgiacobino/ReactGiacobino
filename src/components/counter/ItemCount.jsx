@@ -51,7 +51,7 @@ const ItemCount = (props) => {
         <button onClick={restar}> - </button> {/* con onClick, al hacer click en el boton -, llamo a la funcion restar */}
 
         <button onClick={mandarAPadre}> {/* con onClick, llamo a la funcion onAdd declarada en el Hero*/}
-            Buy
+            Add
         </button>
 
     </div>

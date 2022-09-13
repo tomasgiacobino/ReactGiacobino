@@ -2,7 +2,7 @@ import React from 'react'
 import Hero from './Hero'
 import ItemListContainer from '../ItemListContainer/ItemListContainer'
 import ItemDetailContainer from '../Detail/ItemDetailContainer'
-import Cart from '../NavBar/Cart'
+import Cart from '../Cart/Cart'
 import {Route,Routes} from 'react-router-dom'
 
 

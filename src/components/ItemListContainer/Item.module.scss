@@ -6,13 +6,11 @@
             flex-direction: column;
             gap: 30px;
             text-align: center;
-                .card{
-                    display: flex;
-                    flex-direction: column;
-                }
-                img{
-                    height: 100px;
-                    width: 100px;
+                .cardInfo{
+                    font-size: 25px;
+                        .title{
+                            font-size: 35px;
+                        }
                 }
         }
 }

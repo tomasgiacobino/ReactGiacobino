@@ -1,0 +1,24 @@
+.cartPadre {
+    height: auto;
+    background-color: #c18e30;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+        .carts {
+            width: 1200px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+
+
+            .cartInfo {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                align-items: center;
+            }
+        }
+    
+}
