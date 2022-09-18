@@ -11,7 +11,7 @@ const Footer = () => {
     <footer className={style.footer}>
         { <img src={LogoSmall} alt="" />}
         <NavBarContainer />
-        <Button value='Log Out' variant='secondary'/>
+        {/* <Button value='Log Out' variant='secondary'/> */}
     </footer>
   )
 }

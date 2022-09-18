@@ -20,7 +20,7 @@ const CarritoProducto = (props) => {
           width: '250px',
           margin: '10px',
           padding: '10px',
-          boxShadow: '0px 0px 10px 10px #ccc',
+          boxShadow: '0px 0px 8px 3px #ccc',
           borderRadius: '20px',
           display: 'flex',
           flexDirection: 'column',
@@ -32,7 +32,7 @@ const CarritoProducto = (props) => {
         <h2>{product.title}</h2>
         <h2>{product.price}</h2>
         <h3>{product.qty}</h3>
-        <button onClick={() => removeItem(product.id)}> Eliminar </button>
+        <button className={style.btnDeleteItem} onClick={() => removeItem(product.id)}> Delete </button>
     </div>
   )
 }

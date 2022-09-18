@@ -1,4 +1,6 @@
 .padreCards{
+    padding: 30px;
+    background-color: grey;
     display: flex;
     justify-content: space-around;
         .cards{
@@ -11,6 +13,11 @@
                         .title{
                             font-size: 35px;
                         }
+                }
+                .btnDetails{
+                    padding:20px;
+                    border-radius: 20px;
+                    background-color: white;
                 }
         }
 }

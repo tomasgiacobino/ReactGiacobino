@@ -4,18 +4,18 @@ export const ArrayItems = [
         id:1,
         img:"https://res.cloudinary.com/dkrwpgaco/image/upload/v1662666745/NftPremium2_hxgbcn.jpg" ,
         category: 'premium',
-        title: 'Anonimous',
+        title: 'Anonymous',
         price: '4500',
-        description: 'Wow',
+        description: 'Anonymous Programming',
         stock: 4
     },
     {
         id:2,
         img:"https://res.cloudinary.com/dkrwpgaco/image/upload/v1662666749/NftPremium1_m1u6wf.jpg" ,
         category: 'premium',
-        title: 'Calavera',
+        title: 'Skull',
         price: '3500',
-        description: 'Wow',
+        description: 'Floating Skull',
         stock: 4
     },
     {
@@ -24,52 +24,52 @@ export const ArrayItems = [
         category: 'gold',
         title: 'Smoking',
         price: '2000',
-        description: 'Only 30 NFTS',
+        description: 'Smoking Guy',
         stock: 4
     },
     {
         id:4,
         img:"https://res.cloudinary.com/dkrwpgaco/image/upload/v1662666936/NftGold2_brwsfg.jpg" ,
         category: 'gold',
-        title: 'Astronauta',
+        title: 'Astronaut',
         price: '1400',
-        description: 'Only 30 NFTS',
+        description: 'Hallucinogen Astronaut',
         stock: 4
     },
     {
         id:5,
         img:"https://res.cloudinary.com/dkrwpgaco/image/upload/v1662666739/NftSilver_bqgx4m.jpg" ,
         category: 'silver',
-        title: 'HOLLLA',
+        title: 'R.B',
         price: '700',
-        description: 'Only 30 NFTS',
+        description: 'Robotic House',
         stock: 4
     },
     {
         id:6,
         img:"https://res.cloudinary.com/dkrwpgaco/image/upload/v1662666735/NfttSilver1_yg0ppo.jpg" ,
         category: 'silver',
-        title: 'HOLLLA',
+        title: 'Julio Caesar',
         price: '600',
-        description: 'Only 30 NFTS',
+        description: 'Caesar Dope',
         stock: 4
     },
     {
         id:7,
-        img:"https://res.cloudinary.com/dkrwpgaco/image/upload/v1662666762/NftBronce1_n6p6nv.jpg" ,
+        img:"https://res.cloudinary.com/dkrwpgaco/image/upload/v1663100088/NftBronce5_zvcsrz.jpg" ,
         category: 'bronce',
-        title: 'HOLLLA',
+        title: 'RoboCop',
         price: '350',
-        description: 'Only 30 NFTS',
+        description: 'RoboCop Police',
         stock: 4
     },
     {
         id:8,
-        img:"https://res.cloudinary.com/dkrwpgaco/image/upload/v1662666759/NftBronce2_c024gk.jpg" ,
+        img:"https://res.cloudinary.com/dkrwpgaco/image/upload/v1663100058/NftBronce4_ba3vqt.jpg" ,
         category: 'bronce',
-        title: 'HOLLLA',
+        title: 'Punk',
         price: '250',
-        description: 'Only 30 NFTS',
+        description: 'Punk Not Dead',
         stock: 4
     }
 ]

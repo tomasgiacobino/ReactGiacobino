@@ -46,7 +46,7 @@ const ItemDetailContainer = () => {
   return (
     <div className={style.detailContainer}>
         {
-         isLoading ? <h2>Cargando...</h2>
+         isLoading ? <h2 style={{color:'white'}}>Cargando...</h2>
          : <ItemDetail product={products} key={products.id}/>   
         }
     </div>

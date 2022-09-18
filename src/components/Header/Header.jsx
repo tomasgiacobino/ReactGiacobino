@@ -16,7 +16,7 @@ const Header = () => {
             <CartWidget />
             </Link>
           <NavBarContainer />    
-          <Button value="Sign in" variant="primary"/>
+          {/* <Button value="Sign in" variant="primary"/> */}
           </div>
       </header>
   )

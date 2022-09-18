@@ -31,7 +31,7 @@ const Item = (props) => {
 
       </div>
       <Link to={`/detail/${item.id}`}>
-        <button>Detalles</button>
+        <button className={style.btnDetails}>Details</button>
       </Link>
     </section>
   )

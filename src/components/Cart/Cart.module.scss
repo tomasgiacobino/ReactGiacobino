@@ -6,11 +6,33 @@
     justify-content: space-around;
     align-items: center;
 
+        h2{
+            font-size: 45px;
+            margin-top:20px;
+        }
+
+        .btnClearCart{
+            padding:15px;
+            border-radius: 15px;
+            margin-bottom: 30px;
+        }
+
+        .btnDeleteItem{
+            background-color: black;
+            color: wheat;
+            padding: 5px;
+            border-radius: 10px;
+            
+        }
+
+
         .carts {
+            padding: 30px;
             width: 1200px;
             display: flex;
             flex-wrap: wrap;
-            justify-content: space-around;
+            justify-content: space-evenly;
+            gap: 80px;
 
 
             .cartInfo {

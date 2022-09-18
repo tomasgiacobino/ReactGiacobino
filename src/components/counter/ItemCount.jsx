@@ -1,18 +1,27 @@
-import React, {useState} from 'react'
+import React, {useState, useEffect} from 'react'
 
 import estilos from './itemCount.module.scss'
 
 const ItemCount = (props) => {
 
-    const {stock, initial, onAdd} = props; // Traigo las props que le asigne al ItemCount desde HERO.
+    const {stock, initial = 1, onAdd} = props; // Traigo las props que le asigne al ItemCount desde HERO.
 
     const [count, setCount] = useState(initial); // Hook de Estado, hace que se me actualicen mis componentes -> count. Devuelve un array de dos posicion.
+
+
+    useEffect(() =>{ // utilizamos un useEffect
+
+        setCount(initial) // setea el contador con el num inicial.
+
+    },[initial]) // escucha si cambia el valor initial.
+
+    
 
     const sumar = () =>{
 
         if (count < stock) {
 
-            setCount(count + initial); // setear el valor de count cuando realizo la suma. Actualizo el estado de count.
+            setCount(count + 1); // setear el valor de count cuando realizo la suma. Actualizo el estado de count.
             
         } else {
             console.log("No hay mas stock") 
@@ -22,9 +31,9 @@ const ItemCount = (props) => {
 
     const restar = () =>{
 
-        if(count > initial){
+        if(count > 1){
 
-            setCount(count - initial) // Hago lo mismo que en la funcion Sumar.
+            setCount(count - 1) // Hago lo mismo que en la funcion Sumar.
 
         }else{
             console.log("!")
