@@ -23,15 +23,14 @@ const ItemListContainer = () => {
         getDocs(filter)
 
         .then((resp) =>{
-            console.log(resp.docs);
-
+  
             const products = resp.docs.map((prod) => {
 
                 return {
                     ...prod.data(),
                     id: prod.id
                 };
-
+                
             });
 
             setProducts(products);
