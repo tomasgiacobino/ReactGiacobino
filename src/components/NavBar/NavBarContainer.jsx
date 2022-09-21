@@ -9,6 +9,7 @@ const NavListContainer = () => {
         <Link to="/category/gold">Gold</Link>
         <Link to="/category/silver">Silver</Link>
         <Link to="/category/bronce">Bronce</Link>
+        <Link to="/all">All Products</Link>
     </div>
   )
 }

@@ -24,6 +24,7 @@ const Main = () => {
         <Route path="/category/:categoryName" element={<ItemListContainer/>} />
         <Route path="/detail/:idDetail" element={<ItemDetailContainer/>}/>
         <Route path="/cart" element={<Cart />}/>
+        <Route path='/all' element={<ItemListContainer/>}></Route>
       </Routes>
     
     </main>

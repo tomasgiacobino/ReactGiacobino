@@ -2,6 +2,8 @@ import React, {useState, useEffect} from 'react'
 import { useParams } from 'react-router-dom';
 import { ArrayItems } from '../../mock/Array'
 import ItemList from './ItemList';
+import {collection, getDocs, query, where} from 'firebase/firestore';
+import {db} from '../Firebase/FireBaseConfig';
 
 
 const ItemListContainer = () => {
@@ -11,32 +13,31 @@ const ItemListContainer = () => {
 
 
     useEffect (() => {
-        if (categoryName) {
 
-                const getProducts = new Promise ((res,rej) => { //si pongo res caera en el then, si pongo rej caera en el catch
-                
-                const productosXCategoria = ArrayItems.filter(prod => prod.category === categoryName);
+        const itemCollection = collection(db,"products");
 
-                setTimeout(() => {
-                        res(productosXCategoria) // esta respuesta va a caer en el then, por lo tanto mostrara mi ArrayItems              
-                }, 500)
+        const q = query(itemCollection,where("category", "==", `${categoryName}`));
+
+        const filter = categoryName ? q : itemCollection;
+
+        getDocs(filter)
+
+        .then((resp) =>{
+            console.log(resp.docs);
+
+            const products = resp.docs.map((prod) => {
+
+                return {
+                    ...prod.data(),
+                    id: prod.id
+                };
+
             });
 
-                getProducts
-                .then((response) => { // en los parentesis cae la resolucion de la promesa
-                    
-                    setProducts(response) // guardamos en mi estado products el response que me llega, setItem actualiza mi estado cuando me llega el response 
-                })
-                .catch((err) => {
-                    
-                    console.log(err); // salio todo mal
-                })
-                .finally(() => {
-                    
-                    console.log('Llego al finall'); // el finally se ejecuta siempre
-                })
-            
-        } 
+            setProducts(products);
+
+        })
+      
         
     },[categoryName]) // el [] es para que no se cree un bucle y se resuelva una sola vez
 
