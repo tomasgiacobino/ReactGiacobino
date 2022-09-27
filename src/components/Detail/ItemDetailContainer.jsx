@@ -4,7 +4,7 @@ import { ArrayItems } from '../../mock/Array';
 import ItemDetail from './ItemDetail';
 import style from './Detail.module.scss'
 import {doc, getDoc, collection} from 'firebase/firestore';
-import {db} from '../Firebase/FireBaseConfig';
+import {db} from '../../Firebase/FireBaseConfig';
 
 
 const ItemDetailContainer = () => {

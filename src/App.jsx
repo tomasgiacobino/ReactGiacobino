@@ -6,6 +6,9 @@ import CartProvider from "./components/Context/CartContext";
 
 
 const App = () => {
+
+console.log(process.env);
+
     return (
 
         <CartProvider>

@@ -3,7 +3,7 @@ import { useParams } from 'react-router-dom';
 import { ArrayItems } from '../../mock/Array'
 import ItemList from './ItemList';
 import {collection, getDocs, query, where} from 'firebase/firestore';
-import {db} from '../Firebase/FireBaseConfig';
+import {db} from '../../Firebase/FireBaseConfig';
 
 
 const ItemListContainer = () => {
