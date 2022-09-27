@@ -1,70 +1,54 @@
-# Getting Started with Create React App
+# BIENVENIDOS A NFT OPENTOART 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p> <img src="src/img/imagenreadme.png"> </img> </p>
 
-## Available Scripts
+## ¿De que se trata mi proyecto?
 
-In the project directory, you can run:
+OPENTOART es una pagina web creada con el framework React con el objetivo de realizar todos los desafios del curso de programacion de REACT en CODERHOUSE. Implementando componentes con sus respectivas funciones y objetivos.
 
-### `npm start`
+En este proyecto se pueden apreciar distintos tipos de categorias de NFTS, en la cual hay 2 NFTS por categoria, se pueden visualizar, ver el detalle de cada uno y sumarlo al carrito en caso de que se quiera realizar una compra.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## ¿Que tecnologias aplique en el proyecto?
+[![My Skills](https://skillicons.dev/icons?i=react,js,html,scss)](https://skillicons.dev)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Control de Versiones
+[![My Skills](https://skillicons.dev/icons?i=git,github)](https://skillicons.dev)
 
-### `npm test`
+## Base de Datos
+[![My Skills](https://skillicons.dev/icons?i=firebase)](https://skillicons.dev)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## IDE
+[![My Skills](https://skillicons.dev/icons?i=vscode)](https://skillicons.dev)
 
-### `npm run build`
+## Librerias utilizadas.
+- React Bootstrap
+- React Icons
+- React-router-dom
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+# Pasos para inicializar mi proyecto.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Clonamos el repositorio.
 
-### `npm run eject`
+```
+git clone https://github.com/tomasgiacobino/ReactGiacobino/tree/main/src
+```
+Instalamos todas las dependencias
+````
+npm install o npm i
+````
+Nos posicionamos en la carpeta
+````
+cd proyectotomi
+````
+Iniciar la app
+````
+npm start
+````
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+# Contacto
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- Linkedin: [Tomas Giacobino](https://www.linkedin.com/in/tomas-giacobino-8766a1234/)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- Email: tomas.giacobino@gmail.com
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
